@@ -1,0 +1,1068 @@
+*{margin:0;padding:0}
+body{
+   /* background: #0f0;*/
+    user-selector:none;
+}
+/*======关部==========*/
+.header{
+    width:1000px;
+    height:60px;
+    margin:0 auto;
+    text-align: center;
+    margin-top:15px;
+}
+.header a{
+    display: inline-block;
+    float: left;
+}
+.header a img{
+    display: inline-block;
+    width:210px;
+    height:50px;
+}
+.header .tab_1{
+    float: left;
+    padding-top:20px;
+}
+.header .tab_1 div{
+    float: left;
+    width:70px;
+    position: relative;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.header .tab_1 div span{
+    color: #999;
+    margin-right:8px;
+}
+.header .tab_1 div b{
+    display: inline-block;
+    width:7px;
+    height:6px;
+    background: url(../img/sprites_base.png) no-repeat right center;
+    background-position: -394px 0;
+}
+.header .tab_1 div ul {
+    width:100%;
+    position: absolute;
+    border:1px solid #ccc;
+    top:20px;
+    left:0;
+    background:#fff;
+    z-index: 10000;
+    display: none;
+}
+.header .tab_1 div ul li{
+    height:24px;
+    width:60px;
+    line-height: 26px;
+    padding-left: 10px;
+    border-bottom: 1px solid #eee;
+    cursor: pointer;
+    overflow: hidden;
+}
+.header .tab_1 div ul li.hover{
+    background: #eee;
+    border-bottom: none;
+}
+.header .tab_1 div ul li a:link,.header .tab_1 div ul li a:visited{
+    color: #999;
+}
+.header .search{
+    float: right;
+    height:27px;
+    width:285px;
+    line-height: 27px;
+    margin-top:15px;
+    position: relative;
+}
+.header .search input{
+    display: inline-block;
+    height:24px;
+    line-height: 24px;
+    width:205px;
+    border:none;
+    outline: none;
+    background: #F3F3F3;
+    padding-left: 6px;
+    color: #999;
+}
+.header .search .searbtn{
+    position: absolute;
+    right:-8px;
+    top:1px;
+    width:54px;
+    height:25px;
+    background: url(../img/sprites_base.png) no-repeat;
+    background-position: 0 -2px;
+}
+/*=====导航===========*/
+.nav{
+    width:100%;
+    height:65px;
+    line-height: 65px;
+    background: url(../img/sprites_base.png) repeat-x;
+    background-position: 0 -418px;
+    margin-top:15px;
+}
+.mainnav{
+    width:1000px;
+    margin:0 auto;
+}
+.mainnav ul{
+    width:1000px;
+    text-align: center;
+}
+.mainnav ul li{
+    float: left;
+    width:150px;
+    margin-right:25px;
+    font-size: 16px;
+    font-weight: bold;
+    position: relative;
+}
+.mainnav ul li a:link,.mainnav ul li a:visited{
+    color: #fff;
+}
+.mainnav ul li a{
+    background:url(../img/sprites_base.png) no-repeat left center;
+    background-position: -20px -47px;
+    padding-left: 35px;
+}
+
+.mainnav ul li.study a{
+    background-position: -20px -112px;
+}
+.mainnav ul li.sky a{
+    background-position: -20px -177px;
+}
+.mainnav ul li.know a{
+
+    background-position: -20px -242px;
+}
+.mainnav ul li.contact a{
+    background-position: -20px -312px;
+
+}
+/*鼠标经过时*/
+.mainnav ul li.on{
+    height: 61px;
+    line-height: 61px;
+    border-bottom: 4px solid #10A8AB;
+    background: #34312C;
+    overflow: hidden;
+}
+.mainnav ul li.on b{
+    display: inline-block;
+    width:10px;
+    height:8px;
+    background: url(../img/sprites_base.png) no-repeat right ;
+    background-position: -390px -6px;
+    position: absolute;
+    right:7px;
+    top:30px;
+}
+.mainnav ul li.on a{
+    background: url(../img/sprites_base.png) no-repeat right center;
+    background-position: -221px -47px;
+}
+.mainnav ul li.on a.country{
+    background-position: -221px -112px;
+}
+.mainnav ul li.on a.campers{
+    background-position: -221px -177px;
+}
+.mainnav ul li.on a.must{
+    background-position: -221px -242px;
+}
+.mainnav ul li.on a.meet{
+    background-position: -221px -312px;
+}
+/*副导航*/
+.subnav{
+    width:1000px;
+    height:24px;
+    line-height: 24px;
+    margin:15px auto;
+    text-align: center;
+}
+.subnav ul{
+    float: left;
+}
+.subnav ul li{
+    float: left;
+    padding-right: 12px;
+}
+.subnav ul li a{
+    display: inline-block;
+    color: #999;
+    padding:0 6px;
+    border-right:1px solid #eee;
+}
+.subnav ul li.cur a{
+    display: inline-block;
+    width:50px;
+    height:25px;
+    background:  #10A8AB;
+    color: #fff;
+}
+.subnav ul li.last a{
+   border:none;
+}
+/*主题内容第一块*/
+.main{
+    width:1000px;
+    height:100%;
+    margin:0 auto;
+}
+.main_first{
+    width:1000px;
+    height:310px;
+}
+
+.first_left{
+    width:235px;
+    height:310px;
+    background: #FF6C0D;
+    float: left;
+}
+.first_center{
+    width:490px;
+    height:310px;
+    background: #00f;
+    float: left;
+    margin-left: 20px;
+    overflow: hidden;
+}
+.first_right{
+    width:235px;
+    height:310px;
+    float: right;
+}
+.first_left h1{
+    height:45px;
+    line-height: 45px;
+    background: #FE5A01;
+    color: #fff;
+    font-weight: bold;
+    padding-left: 45px;
+    font-size: 16px;
+    position: relative;
+}
+.first_left h1 b{
+    display: inline-block;
+    width:30px;
+    height:40px;
+    background: url(../img/sprites.png) no-repeat left;
+    background-position: -17px 0;
+    position: absolute;
+    left:18px;
+}
+.first_left ul li{
+    height:35px;
+    line-height: 35px;
+    position: relative;
+}
+/*对应子菜单*/
+
+
+.school_content{
+    position: absolute;
+    width:510px;
+    background: #fff;
+    left:235px;
+    top:-45px;
+    border:1px solid #333;
+    z-index: 10000;
+    display: none;
+}
+.school_content div{
+    border-bottom: 1px solid #eee;
+    padding:15px;
+}
+.school_content div dl dt{
+    float:left;
+    font-weight: bold;
+    width:50px;
+}
+.school_content div dl dd{
+    line-height: 24px;
+}
+.school_content div dl dd a{
+    display: inline-block;
+    margin-top: 5px;
+    padding: 0 7px;
+    border-right: 1px solid #eee;
+    color: #929292;
+}
+.ts_content{
+    width:510px;
+    position: absolute;
+    left:235px;
+    background: #fff;
+    z-index: 10000;
+    border:1px solid #333;
+    bottom:-20px;
+    display: none;
+}
+.ts_content div{
+    border-bottom:1px solid #eee;
+    padding-left: 15px;
+}
+.ts_content div dl dt{
+    float: left;
+    font-weight: bold;
+    width:50px;
+}
+.ts_content div dl dd a{
+    color:#999;
+    border-right:1px solid #eee;
+    padding:0 8px;
+}
+.first_left ul li h2 a{
+    color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+}
+.first_left ul li h2{
+    position: relative;
+    padding-left: 18px;
+}
+.first_left ul li h2 b{
+    display: inline-block;
+    width:11px;
+    height:16px;
+    background: url(../img/sprites.png) no-repeat right;
+    background-position: -461px -310px;
+    position: absolute;
+    right:10px;
+    top:10px;
+   }
+.first_left ul li h2 a{
+    display: inline-block;
+    width:60px;
+    height:40px;
+    background: url(../img/sprites.png) no-repeat left;
+    background-position: -17px -51px;
+    padding:0 35px;
+}
+.first_left ul li h2 a:link,.first_left ul li h2 a:visited{
+    color: #fff;
+}
+.first_left ul li h2.popular a{
+    background-position: -17px -123px;
+}
+.first_left ul li h2.exchange a{
+
+    background-position: -17px -87px;
+}
+.first_left ul li h2.te a{
+
+    background-position: -17px -159px;
+}
+.first_left ul li h2.quan a{
+
+    background-position: -17px -195px;
+}
+.first_left ul li h2.hu a{
+
+    background-position: -17px -231px;
+}
+.first_left ul li h2.ts a{
+
+    background-position: -17px -267px;
+}
+.first_left h1.cur b{
+    background: url(../img/sprites.png) no-repeat left;
+    background-position: -256px 0;
+}
+.first_left ul li.cur2{
+    background:#34312C ;
+}
+.first_left ul li.cur2 h2 a{
+
+    background-position: -255px -55px;
+}
+.first_left ul li.cur2 .popular h2 a{
+
+     background-position: -255px -123px;
+ }
+.first_left ul li.cur2 .exchange h2 a{
+
+    background-position: -255px -87px;
+}
+.first_left ul li.cur2 .te h2 a{
+     background-position: -255px -159px;
+ }
+.first_left ul li.cur2 .quan h2 a{
+
+      background-position: -255px -195px;
+  }
+.first_left ul li.cur2 .hu h2 a{
+
+       background-position: -255px -230px;
+   }
+.first_left ul li.cur2 .ts h2 a{
+
+    background-position: -255px -266px;
+}
+.first_left ul li.cur2 h2 b{
+    background: url(../img/sprites.png) no-repeat right;
+    background-position: -461px -326px;
+}
+.first_right ul{
+    height:25px;
+    line-height: 25px;
+    border-bottom: 1px solid #ccc;
+}
+
+.first_right ul li{
+    float: left;
+    padding-right:5px;
+}
+.first_right ul li a{
+    display: block;
+    width: 71px;
+    line-height: 25px;
+    text-align: center;
+}
+.first_right ul li.hover a{
+    color: #FF6A0A;
+    font-weight: bold;
+    border: 1px solid #f3f3f3;
+}
+.right_list{
+    width:235px;
+    margin-top:5px;
+    height:190px;
+    overflow: hidden;
+}
+.right_list div p{
+    background: url(../img/sprites_sub.png) no-repeat right;
+    background-position: 0 -145px;
+    line-height: 24px;
+}
+.right_list div p.hover{
+    background-position: 0 -119px;
+    font-weight: bold;
+}
+.right_list div p a{
+    padding-left: 20px;
+}
+
+
+/* 主题第二部分*/
+.main_second{
+    width:1000px;
+    height:490px;
+    margin-top:15px;
+
+}
+.second_left{
+    width:750px;
+    height:275px;
+    float:left;
+}
+.second_left h1{
+    height:35px;
+    line-height: 35px;
+    border-bottom: 1px solid #ccc;
+    position: relative;
+    padding-left: 35px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #f60;
+}
+.second_left h1 b{
+    display: inline-block;
+    width:25px;
+    height:25px;
+    background: url(../img/sprites.png) no-repeat left;
+    background-position: 0 -326px;
+    position:absolute;
+    top:5px;
+    left:5px;
+}
+.second_left h1 span{
+   color: #999;
+    font-size: 12px;
+    position: absolute;
+    right:10px;
+    top:5px;
+}
+.second_left h1 span.hover{
+    color: #333;
+}
+.second_pic{
+    width:100%;
+    height:200px;
+}
+.second_pic ul li{
+    float:left;
+    position: relative;
+}
+.second_pic ul li a{
+    display: block;
+    width:130px;
+    height:30px;
+    line-height: 30px;
+    text-align: center;
+    color: #fff;
+    font-size: 14px;
+    background: #FF6704;
+    position: absolute;
+    bottom:-8px;
+    left: 3px;
+   z-index: 10000;
+}
+.second_pic ul li a.hover{
+    background: #000;
+    font-weight: bold;
+}
+.second_pic ul li img{
+    width:138px;
+    height:188px;
+    margin:5px 12px 0 0;
+}
+.second_right{
+    width:235px;
+    height:235px;
+    float: right;
+    background: #F3F3F3;
+}
+.second_right h2{
+    width:200px;
+    height:35px;
+    color: #fff;
+    font-size: 16px;
+   font-weight: bold;
+   background: #34312C;
+    position: relative;
+    padding:8px 0 0 35px;
+}
+.second_right h2 b{
+    display: inline-block;
+    width:50px;
+    height:30px;
+    background: url(../img/sprites_sub.png) no-repeat left center;
+    background-position: 2px -8px;
+    position: absolute;
+    top:4px;
+    left:-5px;
+}
+.form{
+    margin-top:5px;
+}
+.form label{
+    line-height: 24px;
+    display: block;
+    float: left;
+    margin:10px 0 0 8px;
+}
+.form input{
+    display: inline-block;
+    border:none;
+    width:150px;
+    background: #fff;
+    height:25px;
+    margin:10px 0 0 15px;
+}
+.form select{
+    border:none;
+    background: #fff;
+    margin-top:10px;
+    height:25px;
+    width:150px;
+    margin-left: 15px;
+}
+.form p{
+    width:200px;
+    height:30px;
+    line-height: 30px;
+    text-align: center;
+    background: #FF6704;
+    margin:12px auto;
+}
+.form p a:link,.form p a:visited{
+    color: #fff;
+}
+
+.second_sub{
+    display: inline-block;
+    *display: block;
+    *zoom:1;
+    width:1000px;
+    height:200px;
+}
+.sub_left{
+    width:750px;
+    height:100%;
+    float: left;
+}
+.sub_left div{
+    width:140px;
+    height:90px;
+    background: #F3F3F3;
+    float: left;
+    margin:0 6px 0 3px;
+    position: relative;
+    z-index: 10000;
+}
+.sub_left div b{
+    height:0;
+    width:0;
+    line-height: 0;
+    border:8px solid transparent;
+    border-width: 12px 8px;
+    border-bottom-color: #F3F3F3;
+    position: absolute;
+    top:-24px;
+    left:55px;
+}
+.sub_left div p{
+    padding:8px;
+    line-height: 18px;
+}
+.sub_left img{
+    margin-top: 10px;
+}
+.sub_right{
+    width:235px;
+    height:100%;
+   background: #F3F3F3;
+    float: right;
+}
+.sub_right h1{
+    height:35px;
+    line-height: 35px;
+    width:190px;
+    background: #34312C;
+    color:#fff;
+    font-size: 16px;
+   position: relative;
+   padding-left: 45px;
+}
+.sub_right h1 a{
+    position: absolute;
+    right:5px;
+    top:9px;
+    color: #999;
+    font-size: 12px;
+}
+.sub_right h1 a.hover{
+    color: #333;
+}
+.sub_right h1 b{
+    display: inline-block;
+    width:40px;
+    height:25px;
+    background: url(../img/sprites_sub.png) no-repeat left center;
+    background-position: -49px -8px;
+    position: absolute;
+    top:4px;
+    left:5px;
+}
+.sub_right p{
+    width:230px;
+    height:140px;
+    background: #000;
+}
+.sub_right p img{
+    width:100%;
+    height:100%;
+    margin-left: 5px;
+}
+.sub_right a{
+    display: block;
+    text-align: center;
+    line-height: 20px;
+}
+.sub_right a.hover{
+    text-decoration: underline;
+}
+/*第三部分*/
+.main_third{
+    width:1000px;
+    height:360px;
+}
+.third_left{
+    width:750px;
+    height:100%;
+    float: left;
+}
+.third_left h2{
+    width:680px;
+    height:35px;
+    line-height: 35px;
+    font-size: 16px;
+    color: #f60;
+    font-weight:bold;
+    border-bottom: 1px solid #ccc;
+    padding: 0 20px 0 50px;
+    position: relative;
+}
+.third_left h2 b{
+    display: inline-block;
+    width:35px;
+    height:30px;
+    background: url(../img/sprites.png) no-repeat left center;
+    background-position: -28px -326px;
+    position: absolute;
+    top:5px;
+    left:8px;
+}
+.third_left h2.cur b{
+    background-position: -28px -354px;
+}
+.third_left h2 a{
+    display: inline-block;
+    font-size: 12px;
+    color: #999;
+    position: absolute;
+    right:8px;
+    top:5px;
+}
+.third_left h2 a.on{color: #333}
+.left_content{
+    width:750px;
+    height:317px;
+    margin-top:8px;
+}
+.left_bar{
+    width:140px;
+    height:100%;
+    background: #E3E3E3;
+    overflow: hidden;
+    float: left;
+}
+.left_bar h1{
+    color: #fff;
+    height:35px;
+    background: #34312C;
+    line-height: 35px;
+    padding-left: 12px;
+    font-size: 14px;
+    font-weight: bold;
+}
+.left_bar dl dt{
+    width:130px;
+    height:45px;
+    line-height: 45px;
+    border-bottom: 2px solid #fff;
+    color: #333;
+    font-size: 14px;
+    font-weight:bold;
+    padding-left: 10px;
+    position: relative;
+
+}
+.left_bar dl dt a b{
+    display: inline-block;
+    width:30px;
+    height:9px;
+    background: url(../img/sprites.png) no-repeat right;
+    background-position: -460px -342px;
+    position: absolute;
+    right:-10px;
+    top:18px;
+}
+.left_bar dl dt.hover {
+    background: #f60;
+}
+.left_bar dl dt.hover a{
+    color: #fff;
+}
+.left_bar dl dt.hover a b{
+    background-position: -459px -352px;
+}
+.left_bar dl dd{
+    display: none;
+    position: relative;
+
+}
+.left_bar dl dd p{
+    width:140px;
+    height:60px;
+    background:  #10A8AB;
+    opacity:0.8;
+  /*  filter:alpha(opacity=0.3);*/
+    text-align: center;
+    line-height: 60px;
+    position: absolute;
+    top:50px;
+    left:0;
+    margin-top:-50px;
+}
+.left_bar dl dd p a{
+   font-weight: 300;
+    color: #fff;
+    display: inline-block;
+    text-align: center;
+}
+
+.left_center{
+    width:595px;
+    height:140px;
+    border-bottom:1px dashed #eee;
+    margin-left: 156px;
+}
+.left_center dl dt{float: left;
+    margin:12px 8px 0 0;
+}
+.left_center dl dd h3{
+   font-size: 14px;
+    line-height: 30px;
+    font-weight: 800;
+
+    position: relative;
+}
+.left_center dl dd h3 span{
+    position: absolute;
+    right:10px;
+    color: #f60;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 50px;
+}
+.left_center dl dd h3 span b{
+    display: inline-block;
+    width:25px;
+    height:24px;
+    background: url(../img/sprites_sub.png) no-repeat left center;
+    background-position: 0 -172px;
+    position: absolute;
+    top:10px;
+    left:-20px;
+}
+.left_center dl dd h3 span.on b{
+    background-position: -25px -172px;
+}
+.left_center dl dd p{
+    line-height: 24px;
+}
+.third_right{
+    width:235px;
+    height:100%;
+    float: right;
+
+}
+.third_right_tab{
+    width:235px;
+    height:205px;
+}
+.third_right_tab h2{
+    width:190px;
+    height:35px;
+    background:#34312C;
+    line-height: 35px;
+    color: #fff;
+    font-size: 16px;
+    position: relative;
+    padding-left: 45px;
+}
+.third_right_tab h2 span{
+    position: absolute;
+    right:10px;
+    font-size: 12px;
+    color: #999;
+}
+.third_right_tab h2 span.cur{
+    color: #333;
+}
+.third_right_tab h2 b{
+    display: inline-block;
+    width:35px;
+    height:30px;
+    background: url(../img/sprites_sub.png) no-repeat left center;
+    background-position: -96px -3px;
+    position: absolute;
+    left:8px;
+}
+.third_tab_content{
+    width:235px;
+}
+.third_tab_content p{
+    line-height: 30px;
+    color: #666;
+    background: url(../img/sprites_sub.png) no-repeat left center;
+    background-position: 0 -113px;
+    padding-left:20px;
+    margin-left: 10px;
+}
+.third_tab_content p.hover{
+    background-position: 0 -141px;
+}
+.third_tab_content p.hover a{
+    color: #333;
+    font-size: 14px;
+    font-weight: bold;
+}
+.third_right_sub{
+    width:205px;
+    height:110px;
+    background: #F3F3F3;
+    line-height: 24px;
+    padding:15px;
+    margin-top:18px;
+}
+.third_right_sub b{
+    color: #f60;
+}
+/*第四部分*/
+.forth{
+    width:1000px;
+    height:95px;
+    margin-top:20px;
+}
+.forth a{
+    padding-right:3px;
+}
+/*第五部分*/
+.main_five{
+    width:1000px;
+    height:350px;
+    margin-top:20px;
+}
+.five_left{
+    width:750px;
+    height:100%;
+    float: left;
+
+}
+.five_left h2{
+    height:40px;
+    line-height: 40px;
+    font-size: 16px;
+    color: #f60;
+    font-weight: bold;
+    border-bottom: 1px solid #ccc;
+    position: relative;
+}
+.five_left h2 b{
+    display: inline-block;
+    width:40px;
+    height:38px;
+    background: url(../img/sprites.png) no-repeat left;
+    background-position: -117px -550px;
+}
+.five_left h2 span{
+    color: #999;
+    font-size: 12px;
+    position: absolute;
+    right:10px;
+}
+.five_left h2 span.hover{color: #333}
+.five_list{
+    height:310px;
+    width:750px;
+}
+.five_list dl{
+    border-bottom: 1px dashed #eee;
+    width:730px;
+    height:90px;
+    padding:10px 10px 0 10px;
+}
+.five_list dl dt{
+    float: left;
+    padding-right:10px;
+}
+.five_list dl dd h3{
+    font-size: 14px;
+    font-weight: bold;
+}
+.five_list dl dd p{
+    line-height: 24px;
+    color: #777;
+}
+.five_right{
+    width:235px;
+    height:340px;
+    float: right;
+    border:1px solid #ccc;
+    border-top:2px solid #f60;
+}
+.five_right_sup{
+    border-bottom: 1px solid #ccc;
+    height:80px;
+    padding:10px;
+}
+.five_right_sup dt{
+    float: left;
+    margin-right:8px;
+}
+.five_right_sup dd{
+    text-align: center;
+    position: relative;
+}
+.five_right_sup dd h2{
+    font-size: 14px;
+}
+.five_right_sup dd h2 b{
+    color: #00f;
+    font-weight: bold;
+}
+.five_right_sup dd a{
+    display: block;
+    width:50px;
+    height:25px;
+    line-height: 25px;
+    text-align: center;
+    color: #fff;
+    background: #f00;
+    border-radius: 5px;
+    position: absolute;
+    left:70px;
+    top:28px;
+}
+/*页脚内容*/
+.footer{
+    width:100%;
+    height:220px;
+    background:#919699;
+position: relative;
+}
+.footer_content{
+    width:1000px;
+    height:100%;
+    margin:0 auto;
+}
+.footer_left{
+    width:345px;
+    height:170px;
+    float: left;
+    line-height: 24px;
+    margin-top:10px;
+}
+.footer_left
+.footer_center{
+    width:380px;
+    height:180px;
+    float: left;
+    margin-left: 20px;
+    line-height: 24px;
+}
+.version{
+    width:220px;
+    height:185px;
+    float: right;
+    color:#fff;
+    line-height: 20px;
+    margin-top:10px;
+}
+.returnTop{
+    width:20px;
+    height:75px;
+    color: #888;
+    text-align: center;
+    background: #F3F3F3;
+    border:1px solid #ccc;
+    position: absolute;
+    bottom:40px;
+    right:130px;
+}
+.online_contact{
+    position: absolute;
+    z-index: 9999;
+    right:10px;
+    top:400px;
+}

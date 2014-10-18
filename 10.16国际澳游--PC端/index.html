@@ -1,0 +1,554 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>国际澳游</title>
+    <link rel="stylesheet" href="css/reset.css"/>
+    <link rel="stylesheet" href="css/style.css"/>
+    <!--[if lte IE 6]>解决IE不支持透明图片-->
+    <script type="text/javascript" src="js/png.js"></script>
+    <script>
+        PNG.fix('*');
+    </script>
+    <!--[endif]-->
+</head>
+<body>
+    <div class="header">
+        <a href="#"><img src="img/logo.gif"></a>
+        <div class="tab_1">
+            <div>
+                <span>目的地</span><b></b>
+                <ul>
+                    <li><a href="javascript:void(0)" title="英国" >英国</a></li>
+                    <li><a href="javascript:void(0)" title="美国" >美国</a></li>
+                    <li><a href="javascript:void(0)" title="澳洲" >澳洲</a></li>
+                    <li><a href="javascript:void(0)" title="加拿大">加拿大</a></li>
+                    <li><a href="javascript:void(0)" title="欧洲" >欧洲</a></li>
+                    <li><a href="javascript:void(0)" title="亚洲" >亚洲</a></li>
+                </ul>
+            </div>
+            <div>
+                <span>产品系列</span><b></b>
+                <ul>
+                    <li><a href="javascript:void(0)" title="语言学习">语言学习</a></li>
+                    <li><a href="javascript:void(0)" title="名校交流" >名校交流</a></li>
+                    <li><a href="javascript:void(0)" title="留学体验" >留学体验</a></li>
+                    <li><a href="javascript:void(0)" title="全景探访" >全景探访</a></li>
+                    <li><a href="javascript:void(0)" title="亲子互动" >亲子互动</a></li>
+                    <li><a href="javascript:void(0)" title="职业提升" >职业提升</a></li>
+                    <li><a href="javascript:void(0)" title="特色主题" >特色主题</a></li>
+                    <li><a href="javascript:void(0)" title="冬令营" >冬令营</a></li>
+                    <li><a href="javascript:void(0)" title="夏令营" >夏令营</a></li>
+                </ul>
+            </div>
+            <div>
+                <span>适合人群</span><b></b>
+                <ul>
+                    <li><a href="javascript:void(0)" title="小学" >小学</a></li>
+                    <li><a href="javascript:void(0)" title="初中" >初中</a></li>
+                    <li><a href="javascript:void(0)" title="高中" >高中</a></li>
+                    <li><a href="javascript:void(0)" title="大学" >大学</a></li>
+                    <li><a href="javascript:void(0)" title="成人" >成人</a></li>
+                </ul>
+            </div>
+            <div>
+                <span>出发时间</span><b></b>
+                <ul>
+                    <li><a href="javascript:void(0)" title="1-2月">1-2月</a></li>
+                    <li><a href="javascript:void(0)" title="3-6月" >3-6月</a></li>
+                    <li><a href="javascript:void(0)" title="7-8月" >7-8月</a></li>
+                    <li><a href="javascript:void(0)" title="9-12月" >9-12月</a></li>
+                    <li><a href="javascript:void(0)" title="寒假" >寒假</a></li>
+                    <li><a href="javascript:void(0)" title="暑假" >暑假</a></li>
+                </ul>
+            </div>
+            <div>
+                <span>价格区间</span><b></b>
+                <ul>
+                    <li><a href="javascript:void(0)" title="3万以下" >3万以下</a></li>
+                    <li><a href="javascript:void(0)" title="3-5万" >3-5万</a></li>
+                    <li><a href="javascript:void(0)" title="6-10万" >6-10万</a></li>
+                    <li><a href="javascript:void(0)" title="10万以上" >10万以上</a></li>
+                </ul>
+            </div>
+            <div>
+                <span>学习周期</span><b></b>
+                <ul>
+                    <li><a href="javascript:void(0)" title="短期" >短期</a></li>
+                    <li><a href="javascript:void(0)" title="长期" >长期</a></li>
+                    <li><a href="javascript:void(0)" title="不定期" >不定期</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="search">
+            <input type="hidden" id="word">
+            <input type="text" class="text" value="请输入关键词，如：新加坡夏令营" >
+            <a href="javascript:void(0)"  class="searbtn"></a>
+        </div>
+    </div>
+    <div class="nav">
+        <div class="mainnav">
+            <ul>
+                <li><b></b><a href="javascript:void(0)">游学首页</a></li>
+                <li class="study"><b></b><a href="javascript:void(0)" class="country">各国游学</a></li>
+                <li class="sky"><b></b><a href="javascript:void(0)" class="campers">营员天地</a></li>
+                <li class="know"><b></b><a href="javascript:void(0)" class="must">游学须知</a></li>
+                <li class="contact"><b></b><a href="javascript:void(0)" class="meet">认识我们</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="subnav">
+        <ul>
+            <li><a href="javascript:void(0)">美国</a></li>
+            <li><a href="javascript:void(0)">英国</a></li>
+            <li><a href="javascript:void(0)">澳洲</a></li>
+            <li><a href="javascript:void(0)">加拿大</a></li>
+            <li><a href="javascript:void(0)">欧洲</a></li>
+            <li><a href="javascript:void(0)">亚洲</a></li>
+        </ul>
+        <ul>
+            <li><a href="javascript:void(0)">日记</a></li>
+            <li><a href="javascript:void(0)">图片</a></li>
+            <li><a href="javascript:void(0)">视频</a></li>
+            <li><a href="javascript:void(0)">微博</a></li>
+        </ul>
+        <ul>
+            <li><a href="javascript:void(0)">行前准备</a></li>
+            <li><a href="javascript:void(0)">常见问题</a></li>
+        </ul>
+        <ul>
+            <li><a href="javascript:void(0)">品牌介绍</a></li>
+            <li class="last"><a href="javascript:void(0)">联系我们</a></li>
+        </ul>
+    </div>
+    <div class="main">
+    <!--第一部分-->
+        <div class="main_first">
+            <div class="first_left">
+                <h1><b></b>游学七大系列</h1>
+                <ul>
+                    <li class="cur2">
+                        <h2 class="school"><a href="javascript:void(0)">英语学校</a><b></b></h2>
+                        <div class="school_content">
+                            <div>
+                                <dl class="categoryItem">
+                                    <dt>美国：</dt>
+                                    <dd>
+                                        <a href="javascript:void(0)">2015•美国留学初体验</a>
+                                        <a href="javascript:void(0)">阳光之州精品学习营</a>
+                                        <a href="javascript:void(0)">2015•阳光加州欢乐亲子团</a>
+                                        <a href="javascript:void(0)">美国西海岸全景游学营</a>
+                                        <a href="javascript:void(0)">美国常春藤名校之旅</a>
+                                        <a href="javascript:void(0)">美国西岸深度游学营</a>
+                                        <a href="javascript:void(0)">学游西岸经典游学营</a>
+                                        <a href="javascript:void(0)">冬日里的加州梦想之旧金山</a>
+                                        <a href="javascript:void(0)">美国东海岸全景游学营</a>
+                                        <a href="javascript:void(0)">冬日里的加州梦想之洛杉矶</a>
+                                        <a href="javascript:void(0)">美国东海岸全景游学营</a>
+                                        <a href="javascript:void(0)">冬日里的加州梦想之魅力体会</a>
+                                    </dd>
+                                </dl>
+                            </div>
+                            <div>
+                                <dl class="categoryItem">
+                                    <dt>英国：</dt>
+                                    <dd>
+                                        <a href="javascript:void(0)">2015•美国留学初体验</a>
+                                        <a href="javascript:void(0)">阳光之州精品学习营</a>
+                                        <a href="javascript:void(0)">2015•阳光加州欢乐亲子团</a>
+                                        <a href="javascript:void(0)">美国西海岸全景游学营</a>
+                                        <a href="javascript:void(0)">美国常春藤名校之旅</a>
+                                        <a href="javascript:void(0)">美国西岸深度游学营</a>
+                                        <a href="javascript:void(0)">学游西岸经典游学营</a>
+                                        <a href="javascript:void(0)">冬日里的加州梦想之旧金山</a>
+                                        <a href="javascript:void(0)">美国东海岸全景游学营</a>
+                                        <a href="javascript:void(0)">冬日里的加州梦想之洛杉矶</a>
+                                        <a href="javascript:void(0)">美国东海岸全景游学营</a>
+                                        <a href="javascript:void(0)">冬日里的加州梦想之魅力体会</a>
+                                    </dd>
+                                </dl>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <h2 class="popular"><a href="javascript:void(0)">名校交流</a><b></b></h2>
+
+                    </li>
+                    <li>
+                        <h2 class="exchange"><a href="javascript:void(0)">留学体验</a><b></b></h2>
+                    </li>
+                    <li>
+                        <h2 class="te"><a href="javascript:void(0)">特色主题</a><b></b></h2>
+                    </li>
+                    <li>
+                        <h2 class="quan"><a href="javascript:void(0)">全景探访</a><b></b></h2>
+                    </li>
+                    <li>
+                        <h2 class="hu"><a href="javascript:void(0)">亲子互动</a><b></b></h2>
+                    </li>
+                    <li>
+                        <h2 class="ts"><a href="javascript:void(0)">职业提升</a><b></b></h2>
+                        <div class="ts_content">
+                            <div>
+                                <dl>
+                                    <dt>美国</dt>
+                                    <dd><a href="javascript:void(0)">老师职业发展特色营业游</a></dd>
+                                </dl>
+                            </div>
+                            <div>
+                                <dl>
+                                    <dt>英国</dt>
+                                    <dd><a href="javascript:void(0)">老师职业发展特色营业游</a></dd>
+                                </dl>
+                            </div>
+                            <div>
+                                <dl>
+                                    <dt>澳洲</dt>
+                                    <dd><a href="javascript:void(0)">老师职业发展特色营业游</a></dd>
+                                </dl>
+                            </div>
+                            <div>
+                                <dl>
+                                    <dt>加拿大</dt>
+                                    <dd><a href="javascript:void(0)">老师职业发展特色营业游</a></dd>
+                                </dl>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="first_center">
+                <div class="slider">
+                    <ul class="pics">
+                        <li><a href="javascript:void(0)"><img src="img/slider1.jpg"></a></li>
+                        <li><a href="javascript:void(0)"><img src="img/slider2.jpg"></a></li>
+                        <li><a href="javascript:void(0)"><img src="img/slider3.jpg"></a></li>
+                        <li><a href="javascript:void(0)"><img src="img/slider4.jpg"></a></li>
+                        <li><a href="javascript:void(0)"><img src="img/slider5.jpg"></a></li>
+                    </ul>
+                    <div class="nums">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </div>
+            </div>
+            <div class="first_right">
+                <img src="img/phone.gif" >
+                <div class="hotNews">
+                    <ul>
+                        <li class="hover"><a href="javascript:void(0)">最新资讯</a></li>
+                        <li><a href="javascript:void(0)">最新线路</a></li>
+                        <li><a href="javascript:void(0)">最新报名</a></li>
+                    </ul>
+                    <div class="right_list">
+                        <div>
+                            <p><a href="javascript:void(0)">澳际国际游学成为留学试金石</a></p>
+                            <p><a href="javascript:void(0)">2015留学第一步，海外留学初体验</a></p>
+                            <p><a href="javascript:void(0)">澳际游学：英国冬令营有福利啦</a></p>
+                            <p><a href="javascript:void(0)">2014年澳际游学团全真日记</a></p>
+                            <p><a href="javascript:void(0)">澳际游学家长感悟：孩子是要射出的箭</a></p>
+                            <p><a href="javascript:void(0)">游学加拿大：五彩斑斓枫叶之国</a></p>
+                            <p><a href="javascript:void(0)">游学德国： 斑斓的童话梦境</a></p>
+                        </div>
+                        <div>
+                            <p><a href="javascript:void(0)">2015•魅力澳洲亲子欢乐游</a></p>
+                            <p><a href="javascript:void(0)">2015•阳光加州欢乐亲子团</a></p>
+                            <p><a href="javascript:void(0)">2015•北欧四国探访诺贝尔游学营</a></p>
+                            <p><a href="javascript:void(0)">2015•欧洲文艺之都探索游学营</a></p>
+                            <p><a href="javascript:void(0)">2015•加拿大留学初体验</a></p>
+                            <p><a href="javascript:void(0)">2015•澳洲留学初体验</a></p>
+                            <p><a href="javascript:void(0)">英伦贵族全真体验营</a></p>
+                        </div>
+                        <div>
+                            <p><a href="javascript:void(0)"><span style="color:#FF6A0A;">已报名</span>&nbsp;龚同学&nbsp;2015•澳洲留学初体验（含留学）&nbsp;</a></p>
+                            <p><a href="javascript:void(0)"><span style="color:#FF6A0A;">已报名</span>&nbsp;韦同学&nbsp;2015•英国留学初体验&nbsp;</a></p>
+                            <p><a href="javascript:void(0)"><span style="color:#FF6A0A;">已报名</span>&nbsp;孙同学&nbsp;2015•澳洲留学初体验（含留学）&nbsp;</a></p>
+                            <p><a href="javascript:void(0)"><span style="color:#FF6A0A;">已报名</span>&nbsp;金同学&nbsp;2015•美国留学初体验（含留学）&nbsp;</a></p>
+                            <p><a href="javascript:void(0)"><span style="color:#FF6A0A;">已报名</span>&nbsp;单同学&nbsp;2015•澳洲留学初体验（含留学）&nbsp;</a></p>
+                            <p><a href="javascript:void(0)"><span style="color:#FF6A0A;">已报名</span>&nbsp;杨同学&nbsp;2015•美国留学初体验（含留学）&nbsp;</a></p>
+                            <p><a href="javascript:void(0)"><span style="color:#FF6A0A;">已报名</span>&nbsp;泽仁同学&nbsp;2015•澳洲留学初体验（含留学）&nbsp;</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--第二部分-->
+        <div class="main_second">
+            <div class="second_sup">
+                <div class="second_left">
+                    <h1><b></b>个人游学<span>更多&gt;</span></h1>
+                    <div class="second_pic">
+                        <ul>
+                            <li>
+                                <img src="img/abroad_01.jpg" >
+                                <a href="javascript:void(0)">海外语言课程</a>
+                            </li>
+                            <li>
+                                <img src="img/abroad_02.jpg" >
+                                <a href="javascript:void(0)">海外语言课程</a>
+                            </li>
+                            <li>
+                                <img src="img/abroad_03.jpg" >
+                                <a href="javascript:void(0)">海外语言课程</a>
+                            </li>
+                            <li>
+                                <img src="img/abroad_04.jpg" >
+                                <a href="javascript:void(0)">海外语言课程</a>
+                            </li>
+                            <li>
+                                <img src="img/abroad_05.jpg" >
+                                <a href="javascript:void(0)">海外语言课程</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="second_right">
+                    <h2><b></b>我要报名</h2>
+                    <div class="form">
+                        <label for="">你的姓名</label><input type="text"/>
+                        <label for="">你的手机</label><input type="text"/>
+                        <label for="">你的邮箱</label><input type="text"/>
+                        <label for="">游学线路</label>
+                        <select name="" id="">
+                            <option value="">美国</option>
+                            <option value="">英国</option>
+                            <option value="">澳洲</option>
+                            <option value="">加拿大</option>
+                            <option value="">欧洲</option>
+                        </select>
+                        <p><a href="javascript:void(0)">提交</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="second_sub">
+                <div class="sub_left">
+                    <div>
+                        <b></b>
+                        <p>假期英语，通用英语，强化英语，学期/学年制英语</p>
+                    </div>
+                    <div>
+                        <b></b>
+                        <p>TOEFL课程，IELTS课程，剑桥ESOL课程，GMAT课程，GRE课程，SAT课程</p>
+                    </div>
+                    <div>
+                        <b></b>
+                        <p>对外英语教学证书(剑桥CELTA，TEFL)，商业四级证书，商业证书，高级商业证书</p>
+                    </div>
+                    <div>
+                        <b></b>
+                        <p>可转学分的国际课程</p>
+                    </div>
+                    <div class="abroadInfo">
+                        <b></b>
+                        <p>商务英语，职业类英语</p>
+                    </div>
+                    <img src="img/sub_left.jpg" >
+                </div>
+                <div class="sub_right">
+                    <h1><b></b>游学映像<a href="javascript:void(0)">更多&gt;</a></h1>
+                    <p>
+                        <img src="img/video.jpg" alt=""/>
+                    </p>
+                    <a href="javascript:void(0)">2015澳际国际游学-游学海外课堂</a>
+                </div>
+            </div>
+        </div>
+        <!--第三部分-->
+        <div class="main_third">
+            <div class="third_left">
+                <h2><b></b>团组游学<a href="javascript:void(0)">更多&gt;</a></h2>
+                <div class="left_content">
+                    <div class="left_bar">
+                        <h1>游学线路</h1>
+                        <dl >
+                            <dt class="hover"><a href="javascript:void(0);" >美国线路<b></b></a></dt>
+                            <dd>
+                                <img src="img/flag_us.gif" width="140" height="60"  >
+                                <p>
+                                    <a href="javascript:void(0)" ><i></i><b>更多线路</b></a>
+                                </p>
+                            </dd>
+                        </dl>
+                        <dl>
+                            <dt><a href="javascript:void(0)">英国线路<b></b></a></dt>
+                            <dd>
+                                <img src="img/flag_uk.gif" width="140" height="60" >
+                                <p>
+                                    <a href=""><i></i><b>更多线路</b></a>
+                                </p>
+                            </dd>
+                        </dl>
+                        <dl>
+                            <dt><a href="javascript:void(0)" >加拿大线路<b></b></a></dt>
+                            <dd>
+                                <img src="img/flag_ca.gif" width="140" height="60" >
+                                <p>
+                                    <a href="javascript:void(0)"><i></i><b>更多线路</b></a>
+                                </p>
+                            </dd>
+                        </dl>
+                        <dl>
+                            <dt><a href="javascript:void(0)">澳洲线路<b></b></a></dt>
+                            <dd>
+                                <img src="img/flag_au.gif" width="140" height="60" >
+                                <p>
+                                    <a href="javascript:void(0)"><i></i><b>更多线路</b></a>
+                                </p>
+                            </dd>
+                        </dl>
+                        <dl>
+                            <dt><a href="javascript:void(0)" >欧洲线路<b></b></a></dt>
+                            <dd>
+                                <img src="img/flag_eu.gif" width="140" height="60"  >
+                                <p>
+                                    <a href="javascript:void(0)"><i></i><b>更多线路</b></a>
+                                </p>
+                            </dd>
+                        </dl>
+                        <dl>
+                            <dt><a href="javascript:void(0)">亚洲线路<b></b></a></dt>
+                            <dd>
+                                <img src="img/flag_as.gif" width="140" height="60" >
+                                <p>
+                                    <a href="javascript:void(0)"><i></i><b>更多线路</b></a>
+                                </p>
+                            </dd>
+                        </dl>
+                    </div>
+                    <div class="left_center">
+                        <dl class="left_center_content">
+                            <dt><img src="img/left_bar.jpg" alt=""/></dt>
+                            <dd>
+                                <h3>
+                                    <a href="javascript:void(0)">2015•美国留学初体验</a>
+                                    <span><b></b>喜欢人数4041</span>
+                                </h3>
+                                <p>
+                                    <strong>适合学员：</strong>小学,初中,高中,大学<br />
+                                    <strong>目 的 地：</strong>美国<br />
+                                    <strong>推荐理由：</strong>
+                                    国际班课堂，与各国同学一起快乐学习，让标准的美语脱口而出。零距离接触世界顶尖大学，掌握最前沿的留学资讯
+                                    <a href="javascript:void(0)">【详细介绍】</a>
+                                </p>
+                            </dd>
+                        </dl>
+                    </div>
+                </div>
+            </div>
+            <div class="third_right">
+                <div class="third_right_tab">
+                    <h2><b></b>游学前准备<span>更多&gt;</span></h2>
+                    <div class="third_tab_content">
+                        <p class="hover"><a href="javascript:void(0)">如何选择适合我的游学团？</a></p>
+                        <p><a href="javascript:void(0)">国际游学怎么和寄宿家庭相处？</a></p>
+                        <p><a href="javascript:void(0)">海外亲子游学的利弊</a></p>
+                        <p><a href="javascript:void(0)">琳琅满目的游学项目该怎么选</a></p>
+                        <p><a href="javascript:void(0)">让人心情愉悦英国游学</a></p>
+                    </div>
+                </div>
+                <p class="third_right_sub">2014年夏令营获签率统计：
+                    美国<b>99.2%</b>,其他各国<b>99.6%</b>
+                    挤干水分，谁敢跟我比获签率？
+                    实力靠数据说话！
+                </p>
+            </div>
+        </div>
+        <!--图片-->
+        <div class="forth">
+            <a href="javascript:void(0)"><img src="img/forth_2.jpg" alt=""/></a>
+            <a href="javascript:void(0)"><img src="img/forth_1.jpg" alt=""/></a>
+            <a href="javascript:void(0)"><img src="img/forth_3.jpg" alt=""/></a>
+        </div>
+        <!--第五部分-->
+        <div class="main_five">
+            <div class="five_left">
+                <h2><b></b>营员日记<span>更多&gt;</span></h2>
+                <div class="five_list">
+                    <dl>
+                        <dt><img src="img/five_1.jpg" ></dt>
+                        <dd>
+                            <h3>2014加拿大游学日记，Stanley Park2014加拿大游学日记，Stanley Park</h3>
+                            <p>
+                                澳际游学加拿大团全天游览史丹利公园，下午进行ESL课程：澳际游学课程的设置非常灵活，课业负担也相对轻松，游学生们可享受更多课余的休闲时光，发现所在城市的自然美景...
+                            </p>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt><img src="img/five_2.jpg" ></dt>
+                        <dd>
+                            <h3>2014加拿大游学日记，维多利亚岛2014加拿大游学日记，维多利亚岛</h3>
+                            <p>
+                                　Day 7 ：上午：澳际游学加拿大团乘坐BC Ferries游览维多利亚；澳际游学加拿大团前往UBC，在温哥华最好的室内滑冰场所体验加拿大传统体育项目。...
+                            </p>
+                        </dd>
+                    </dl>
+                    <dl>
+                        <dt><img src="img/five_3.jpg" ></dt>
+                        <dd>
+                            <h3>2014加拿大游学日记，林恩峡谷公园2014加拿大游学日记，林恩峡谷公园</h3>
+                            <p>
+                                我有一场旅行，愿能穿越地心。如此的一厢情愿，却又无端欢喜。旅行，能让你遇到那个更好的自己。Day 6：上午：澳际游学精品英语课程；...
+                            </p>
+                        </dd>
+                    </dl>
+                </div>
+            </div>
+            <div class="five_right">
+                  <div class="five_right_sup">
+                      <dl>
+                          <dt><img src="img/five_right.png" alt=""/></dt>
+                          <dd>
+                              <h2>澳际游学&nbsp;&nbsp;<b>V</b> 北京 东城区 </h2>
+                              <a href="javascript:void(0)">+关注</a>
+                          </dd>
+                      </dl>
+                  </div>
+            </div>
+        </div>
+    <!--第六部分图集-->
+    <div class="main_six">
+        <h1><b></b>游员足迹</h1>
+    </div>
+    <div class="link">
+        <h1>友情链接</h1>
+        <div></div>
+    </div>
+    <div class="online_contact">
+        <img src="img/online.png" alt=""/><!--侧边在线咨询条-->
+    </div>
+</div>
+    <!--页脚内容-->
+    <div class="footer">
+        <div class="footer_content">
+            <div class="footer_left">
+                <p>
+                    <strong>北京</strong><a href="javascript:void(0)">VIP国贸</a><a href="">VIP中关村</a><br/>
+                    <strong>华北</strong><a href="">石家庄</a><a href="">郑州</a><a href="javascript:void(0)">太原</a><br/>
+                    <strong>华东</strong><a href="">上海</a><a href="">南京</a><a href="javascript:void(0)">杭州</a><br/>
+                    <strong>华中</strong><a href="">汉口</a><a href="">湖南</a><a href="javascript:void(0)">合肥</a><a href="javascript:void(0)">长沙</a>
+                </p>
+            </div>
+            <div class="footer_center">
+                <p>
+                    <strong>华南</strong><a href="javascript:void(0)">VIP国贸</a><a href="">VIP中关村</a><a href="javascript:void(0)">福州</a><br/>
+                    <strong>东北</strong><a href="">石家庄</a><a href="">郑州</a><a href="javascript:void(0)">太原</a><br/>
+                    <strong>西南</strong><a href="">上海</a><a href="">南京</a><a href="javascript:void(0)">杭州</a><br/>
+                    <strong>西北</strong><a href="">汉口</a><a href="">湖南</a><a href="javascript:void(0)">合肥</a><a href="javascript:void(0)">长沙</a>
+                </p>
+            </div>
+            <p class="version">
+                澳际教育集团<br>版权所有 © 2000-2013 澳际教育,<br>All Rights Reserved<br> 总部地址：北京市东城区灯市口大街33号<br>
+                <span ></span>国中商业大厦2层<br>联系电话：010 - 65229780<br>隐私申明 | 京ICP证050284号<br>京公网安备110101003454号<br>京东工商留学广审[2003]年 第0008号
+            </p>
+        </div>
+        <a href="javascript:void(0)" class="returnTop">返回顶部</a>
+    </div>
+    <a href="http://www.baidu.com"><img src="img/baidu.gif" alt=""/></a>
+<script src="js/jquery-1.11.0.min.js"></script>
+<script src="js/png.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>
